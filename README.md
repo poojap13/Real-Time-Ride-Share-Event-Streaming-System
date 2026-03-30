@@ -24,7 +24,7 @@ python consumer.py
 
 ---
 
-## Example Event
+### Example Event
 
 ```json
 {
@@ -33,9 +33,11 @@ python consumer.py
   "longitude": -63.57,
   "timestamp": "2026-03-30T12:00:00"
 }
+```
+
+---
 ### What I Learned
 How Kafka decouples producer and consumer
 Basics of event-driven architecture
 How real-time streaming systems differ from request-response systems
 
----
