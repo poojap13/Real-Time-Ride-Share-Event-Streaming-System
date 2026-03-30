@@ -22,12 +22,16 @@ python producer.py
 ### 3. Run Consumer
 python consumer.py
 
-### Example Event
+---
+
+## Example Event
+
+```json
 {
-  -"driver_id": "driver_5",
-  -"latitude": 44.6488,
-  -"longitude": -63.5752,
-  -"timestamp": "2026-03-30T12:00:00"
+  "driver_id": "driver_3",
+  "latitude": 44.65,
+  "longitude": -63.57,
+  "timestamp": "2026-03-30T12:00:00"
 }
 ### What I Learned
 How Kafka decouples producer and consumer
